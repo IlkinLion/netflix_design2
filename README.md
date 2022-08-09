@@ -12,7 +12,7 @@ Today I create with html and css file for Netflix_design2. I use here html and c
 ## ## RULES OF USE
 
 > *STEP-1:* `https://github.com/IlkinLion/netflix_design2.git` <br/>
-> *STEP-2:*  enter the `Winter_animation` folder that appears <br/>
+> *STEP-2:*  enter the `Netflix_design2` folder that appears <br/>
 > *STEP-3:*  open the folder you are in in a text editor <br/>
 > *STEP-4:*  run the  all the`index.html` files in the main folder <br/>
 > *STEP-5:*  to download the project as `.zip`  [here](https://github.com/IlkinLion/netflix_design2/archive/refs/heads/main.zip) click <br/>
