@@ -15,7 +15,7 @@ Today I create with html and css file for Netflix_design2. I use here html and c
 > *STEP-2:*  enter the `Winter_animation` folder that appears <br/>
 > *STEP-3:*  open the folder you are in in a text editor <br/>
 > *STEP-4:*  run the  all the`index.html` files in the main folder <br/>
-> *STEP-5:*  to download the project as `.zip`  [here](https://github.com/cavidsuleyman/Ballon-Game/archive/refs/heads/master.zip) click <br/>
+> *STEP-5:*  to download the project as `.zip`  [here](https://github.com/IlkinLion/netflix_design2/archive/refs/heads/main.zip) click <br/>
 
 
 ## Technology
@@ -32,4 +32,7 @@ This project was developed using the following technologies
 
 ## SAMPLE SCREEN APPEARANCE
 
-![There was a screenshot here](./screen_1.1.1.PNG)
+![There was a screenshot here](./screen1.PNG)
+![There was a screenshot here](./screen2.PNG)
+![There was a screenshot here](./screen3.PNG)
+![There was a screenshot here](./screen4.PNG)
