@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header, .container header {
+  width: 100%;
+  height: 440px;
+  background-image: url(../image/netflix-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  top: 0;
+  border-bottom: 5px solid #1B1B1A;
+}
+
+.nav--right, .container header .nav--right {
+  width: 200px;
+  height: 60px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav--right--one, .container header .nav--right .nav--right--one {
+  width: 100px;
+  height: 60px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header--center, .container header .header--center {
+  width: 450px;
+  height: 300px;
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header--center--one, .container header .header--center .header--center--one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section--one, .container section .section--one {
+  width: 100%;
+  height: 200px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 6;
+  border-bottom: 5px solid #1B1B1A;
+  margin-top: 20px;
+}
+
+.section--one--left, .container section .section--one .section--one--left {
+  width: 400px;
+  height: 200px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section--two, .container section .section--two {
+  width: 100%;
+  height: 550px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section--column, .container section .section--two .section--column {
+  width: 550px;
+  height: 60px;
+  background-color: #2F2F2E;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: -5px;
+}
+
+.section--down, .container section .section--two .section--down {
+  width: 550px;
+  height: 100px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section--down--button, .container section .section--two .section--down .section--down--button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer--main, .container footer .footer--main {
+  width: 850px;
+  height: 280px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 30px;
+}
+
+.footer--down, .container footer .footer--down {
+  width: 120px;
+  height: 60px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #2f2f2f;
+  transform: translateX(-365px);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container header nav {
+  width: 100%;
+  height: 80px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+}
+.container header nav .logo img {
+  width: 100px;
+  height: 60px;
+}
+.container header .nav--right .nav--right--two button {
+  width: 70px;
+  height: 25px;
+  background-color: red;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+.container header .nav--right .nav--right--two button:hover {
+  background-color: #000;
+}
+.container header .header--center p {
+  font-size: 25px;
+}
+.container header .header--center h1 {
+  font-size: 40px;
+}
+.container header .header--center .header--center--one input {
+  width: 280px;
+  height: 30px;
+  outline: none;
+  border: none;
+}
+.container header .header--center .header--center--one button {
+  width: 100px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: red;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+}
+.container header .header--center .header--center--one button:hover {
+  background-color: #000;
+}
+.container section {
+  width: 100%;
+  height: 1450px;
+  background-color: #000;
+  justify-content: space-between;
+  top: 440px;
+  position: absolute;
+}
+.container section .section--one .section--one--left h2 {
+  font-size: 30px;
+}
+.container section .section--one .section--one--left p {
+  font-size: 20px;
+}
+.container section .section--one .section--one--right img {
+  width: 400px;
+  height: 200px;
+}
+.container section .section--two h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.container section .section--two .section--column p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  transform: translateX(20px);
+}
+.container section .section--two .section--column p:hover {
+  color: red;
+}
+.container section .section--two .section--column i {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  transform: translateX(-20px);
+  cursor: pointer;
+}
+.container section .section--two .section--column i:hover {
+  color: red;
+}
+.container section .section--two .section--down p {
+  color: #fff;
+}
+.container section .section--two .section--down input {
+  width: 340px;
+  height: 40px;
+  outline: none;
+  border: none;
+}
+.container section .section--two .section--down button {
+  width: 120px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: red;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+}
+.container section .section--two .section--down button:hover {
+  background-color: #000;
+}
+.container footer {
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 10;
+  top: 1890px;
+}
+.container footer h4 {
+  color: #fff;
+  transform: translateX(-300px);
+}
+.container footer .footer--main p {
+  color: #fff;
+}
+.container footer .footer--main a {
+  text-decoration-line: none;
+}
+.container footer .netflix--span {
+  color: #fff;
+  transform: translateX(-370px);
+}
+
+@media (max-width: 768px) {
+  .container {
+    position: relative;
+  }
+  header, .container header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .header--center, .container header .header--center {
+    transform: translateY(50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+  }
+  .header--center h1, .container header .header--center h1 {
+    transform: translateX(-40px);
+    font-size: 30px;
+  }
+  section {
+    height: 1700px;
+  }
+  .section--one, .container section .section--one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    border-bottom: none;
+  }
+  .section--one--left h2, .container section .section--one .section--one--left h2,
+.section--one--left p,
+.container section .section--one .section--one--left p {
+    font-size: 15px;
+  }
+  .section--two, .container section .section--two {
+    height: 600px;
+    background-color: #000;
+  }
+  .section--column, .container section .section--two .section--column {
+    width: 400px;
+  }
+  footer {
+    transform: translateY(430px);
+    background-color: #000;
+  }
+  .footer--main, .container footer .footer--main {
+    transform: translateY(100px);
+    display: flex;
+    height: 950px;
+    background-color: #000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  footer h4 {
+    transform: translateY(-150px);
+  }
+  .footer--down, .container footer .footer--down {
+    transform: translateY(100px);
+    height: 200px;
+    background-color: #000;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

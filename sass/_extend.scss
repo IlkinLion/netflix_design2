@@ -1,0 +1,92 @@
+header {
+    width: $w1;
+    height: $h14;
+    background-image: url(../image/netflix-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    @include flex1(column,center,center);
+    z-index: 2;
+    top: $t1;
+    border-bottom:5px solid #1B1B1A;
+}
+.nav--right {
+    width: $w3;
+    height: $h4;
+    background-color: $c1;
+    @include flex3(row,center,space-around);
+}
+.nav--right--one {
+    width: $w2;
+    height: $h4;
+    background-color: $c1;
+    @include flex3(row,center,space-around);
+    color: $c2;
+    cursor: pointer;
+}
+.header--center {
+    width: $w5;
+    height: $h6;
+    background-color: $c1;
+    color: $c2;
+    @include flex4(column,center,space-around);
+}
+.header--center--one {
+    @include flex5(row,center,center);
+}
+.section--one {
+    width: $w1;
+    height: $h9;
+    background-color: $c1;
+    @include flex3(row,center,space-around);
+    z-index: 6;
+    border-bottom:5px solid #1B1B1A;
+    margin-top: 20px;
+}
+.section--one--left {
+    width: $w7;
+    height: $h9;
+    background-color: $c4;
+    color: $c2;
+    @include flex7(column,space-around);
+}
+.section--two {
+    width: $w1;
+    height: $h10;
+    background-color: $c1;
+    @include flex4(column,center,space-around);
+}
+.section--column {
+    width: $w8;
+    height: $h4;
+    background-color: $c5;
+    @include flex2(row,center,space-between);
+    margin: -5px;
+}
+.section--down {
+    width: $w8; 
+    height: $h11;
+    background-color: $c1;
+    @include flex1(column,center,center);
+}
+.section--down--button {
+    @include flex5(row,center,center);
+}
+.footer--main{
+    width: $w10;
+    height: $h13;
+    background-color: $c1;
+    @include flex2(row,center,space-between);
+    line-height: $h7;
+}
+.footer--down {
+    width: $w11;
+    height: $h4;
+    background-color: $c1;
+    @include flex3(row,center,space-around);
+    color: $c2;
+    cursor: pointer;
+    border: 2px solid #2f2f2f;
+    transform: translateX(-365px);
+}
